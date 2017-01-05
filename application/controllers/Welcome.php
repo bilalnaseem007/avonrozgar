@@ -20,7 +20,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		// echo "dsdsds";exit;
+		
 		$data['content']='main';
 		$this->load->view('template',$data);
 	}

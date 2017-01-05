@@ -1,4 +1,4 @@
-  <div class="container-fluid pd">
+  <div class="container-fluid ">
                     <!--footer area start-->
 <div class="row" style="margin-top: 30px; background-color:#0381B8" id="navfooter">
                         <div class="col-md-2" id="colfooter">

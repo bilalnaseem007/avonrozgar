@@ -1,0 +1,342 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Mar, 2015, 1:20:30 PM
+    Author     : Bilal
+*/
+
+.text-myprimary{
+    color:#F37436;
+}
+.pd{
+    padding:0px;
+    margin: 0px;
+}
+.tagline{
+    font-size: 12px;
+}
+.logo h2{
+    margin-bottom: 0px;
+    color: #0381B8;
+}
+
+#menubox{
+    background-color: #0381B8;
+    margin-top: 20px;
+
+    padding: 0px;
+}
+#menubox .menu ul li{
+    border-right: 1px solid #0099cc;
+}
+
+#menubox .menu ul li a{
+    border-radius: 0px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top:20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#menubox .menu ul li a:hover{
+    background-color: #F37436;
+}
+.myactive{
+    background-color: #F37436;
+}
+#tabbox,#activitybox{
+
+    height: 500px;
+    margin-top: 20px;
+
+    
+}
+
+    
+
+/*#tabbox #tabs ul li a{
+    border-radius: 0px;
+ cursor: pointer;
+    color:white;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#tabbox #tabs ul li a:hover{
+     background-color: #F37436;
+}*/
+#tabboxinner{
+    border:1px solid #d1d1d1;
+    height:450px;
+    border-top:none;
+    overflow-y: auto;
+
+}
+#tabboxinner #tabbatch #activitybuttons{
+    padding: 10px;
+}
+#tabboxinner #tabbatch #activitybuttons input{
+    margin-left:20px;
+}
+#tabboxinner #tabbatch #activitybuttons select{
+    width:250px;
+}
+#tabboxinner #trainingtab,#tabboxinner #demotab, #jobdetailstab,#tabboxinner #jobdetailstab
+{
+    display:none;
+}
+#trainingtab #traininginner{
+    padding: 10px;
+}
+#trainingtab .techbox{
+    border: 1px solid #d1d1d1;
+    margin: 5px;
+    overflow: auto;
+}
+
+#trainingtab .techbox .techimage img{
+    height: 100px;
+    float: right;
+    margin-left: 10px;
+    
+    
+}
+#trainingtab .techbox .techdetails{
+    float: left;
+    font-size: 14px;
+    color:#999;
+
+}
+#upcomingdemos h3 {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+ #demoinner #demoform  input,#demoinner #demoform  select{
+    margin-top:15px;
+}
+@media(max-width:100px){
+ #header{
+        float: none;
+        height: 100%;
+    }
+    
+}
+#activitybox #activityboxinner{
+    border: 1px solid #d1d1d1;
+    height: 300px;
+}
+#activitybox #activityboxinner h4{
+  background-color:#0381B8;
+  color: white;
+  padding: 10px;  
+}
+#activitybox #activityboxinner input{
+    margin-top: 10px;
+}
+#activitybox #activityboxinner  #submit {
+    background-color: #F37436;
+    color: white;
+}
+#activitybox #activityboxinner  #reset{
+    background-color: #F37436;
+    color: white;
+}
+#activitybox #testimonial{
+    border: 1px solid #d1d1d1;
+    height: 192px; 
+    //overflow: auto;
+}
+#activitybox #testimonial h5{
+    background-color: #0381B8;
+    color: white;
+    padding: 5px;
+}
+#activitybox #testimonial h5 button{
+    float:right;
+    margin-top: -3px;
+    background-color: #0381B8;
+    border: none;
+}
+#servicearea #service1 #service1inner{
+    border: 1px solid #d1d1d1;
+    height: 400px;
+    
+}
+
+
+
+#servicearea #service1 #service1inner h4{
+    padding: 5px;
+    background-color: #0381B8 ;
+    color: white;
+    text-transform: uppercase;
+}
+#servicearea #service1 #service1inner button{
+    background-color: #F37436;
+    
+}
+#btn,#btn2{
+    background-color: #F37436;
+}
+#navfooter ul li a{
+    border-radius: 0px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+    
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+#navfooter ul li a:hover{
+    background-color: #F37436;
+}
+#navfooter h3{
+    color: #F37436;
+}
+#navfooter #colfooter{
+    height: 300px;
+    border-right: 2px solid #0099cc;
+}  
+#footer h5{
+    color:white;
+    text-align: center;
+}
+
+#services h4,h3{
+    color: #F37436;
+}
+#contactus h4,#contactus h4{
+    color: #F37436;
+}
+
+#menufooter h6{
+    color: #F37436;
+}
+#menufooter .row{
+    background-color: #0381B8;
+}
+.techPopup{
+    position: absolute;
+    left: 0px;
+    padding:10px;
+    width: 200px;
+    border: 1px solid #d1d1d1;
+    background-color: #ECECEC;
+    display: none;
+}
+.soc_icons {
+
+}
+.soc_icons ul{
+	margin-bottom: 0;
+}
+.soc_icons ul li{
+	display:inline-block;
+	border-left: 1px solid rgb(39, 37, 37);
+	margin-left: -3px;
+}
+.soc_icons ul li a{
+	color:#ffffff;
+	font-size: 24px;
+	display: block;
+	line-height: 60px;
+	width: 60px;
+	height: 60px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.soc_icons ul li a:hover{
+	background: #FF5454;
+}
+
+.student_info_container{
+    width: 60%;
+    min-height: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.student_info_container .student_info{
+    border: 1px solid #d1d1d1;
+    //height: 100%;
+    overflow: auto;
+    background-color: #ECECEC;
+    
+}
+.float{
+    float: left;
+}
+.student_info_left,.student_info_middle,.student_info_right{
+    margin: 10px;
+}
+.student_info_container td{
+    height: 30px;
+}
+.student_info_container table{
+    font-size: 12px;
+}
+
+.para{
+	font-size: 14px;
+	line-height: 1.8em;
+	color: #868686;
+}
+
+
+
+
+//.tabs{
+  //  border: 1px solid #ECECEC;
+    //height:490px;
+    //overflow-y: scroll;
+//}
+.tabs .tab_items li{
+    float:  left;
+    text-decoration: none;
+   
+    font-size: 12px;
+    border-right: 1px solid black;
+    background-color: #333;
+    color: white;
+    padding:5px;
+     padding-right: 20px;
+     -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.tabs ul{
+    list-style: none;
+    margin: 0px; 
+    padding: 0px;
+}
+.tab_items{
+    width: 100%;
+    background-color: #333;
+    height: 27px;
+    border-right: 1px solid #333;
+}
+
+.tab_items ul .active_tab{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.tab_items ul li:hover{
+    background-color: #FF5454;   
+    cursor: pointer;
+}
