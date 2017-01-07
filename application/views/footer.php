@@ -13,10 +13,10 @@
 
                                 <ul class="nav nav-pills nav-stacked"> 
                                     <li><a href="index.php">Home</a></li>
-                                    <li><a href="training.php">Training</a></li>
-                                    <li><a href="services.php">Services</a></li>
-                                    <li><a href="placement.php">Placement</a></li>
-                                    <li><a href="event.php">Events</a></li>
+                                    <li><a href="training.php">Admit Card</a></li>
+                                    <li><a href="services.php">Syllabus</a></li>
+                                    <li><a href="placement.php">Latest Job</a></li>
+                                    <li><a href="event.php">Results</a></li>
                                     <li><a href="#">client</a></li> 
                                 </ul>
                             </div> 

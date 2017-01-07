@@ -166,6 +166,123 @@
 </div>
 	
 	</div>
+	<div class="row pd">
+				<div class="col-md-4">
+					
+				<table class="table table-hover">
+  <thead>
+   <tr class="bg-danger">
+ 
+      <th colspan="3"><h2 class="text-center">Admit Card</h2></th>
+      
+    </tr>
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Admit Card</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+   
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="">Larry the Bird</td>
+
+    </tr>
+  </tbody>
+</table>
+				
+				</div>
+				<div class="col-md-4">
+				
+	<table class="table table-hover ">
+  <thead>
+   <tr class="bg-primary">
+ 
+      <th colspan="3"><h2 class="text-center">Result</h2></th>
+      
+    </tr>
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Result</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+   
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td >Larry the Bird</td>
+      <td >Larry the Bird</td>
+
+    </tr>
+  </tbody>
+</table>
+	</div>
+	<div class="col-md-4">
+	<table class="table table-hover ">
+  <thead>
+   <tr class="bg-success">
+ 
+      <th colspan="3"><h2 class="text-center">Latest Jobs</h2></th>
+      
+    </tr>
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Result</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+   
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td >Larry the Bird</td>
+      <td >Larry the Bird</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>
+	
+	</div>
+	
 	
 	</div>
 		

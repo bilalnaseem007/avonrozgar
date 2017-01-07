@@ -17,7 +17,7 @@
     <div class="row">
         <div class="col-xs-3 pd">
             <div class="logo">
-                <h2>Avon<span class="text-myprimary">Rojgar</span>.com</h2>
+                <h2>Sarkari<span class="text-myprimary">Rojgar</span>.com</h2>
                 <span class="text-info tagline "><em>Government Job Portal</em></span>
             </div>
         </div>
